@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Golden Pancakes",
+    "ingredients": "Wheat + Honey + Milk",
+    "rewards": "50 Coins + Rare Seed",
+    "rarity": "Uncommon",
+    "tips": "Best for Chris P. Bacon events"
+  },
+  {
+    "name": "Mushroom Omelette",
+    "ingredients": "Egg + Mushroom + Cheese",
+    "rewards": "35 Coins + Common Seed",
+    "rarity": "Common", 
+    "tips": "Quick energy restore"
+  },
+  {
+    "name": "Berry Smoothie",
+    "ingredients": "Blueberry + Strawberry + Milk",
+    "rewards": "45 Coins + Friendship Points",
+    "rarity": "Rare",
+    "tips": "Great for daily quests"
+  },
+  {
+    "name": "Herbal Tea",
+    "ingredients": "Mint + Chamomile + Honey",
+    "rewards": "30 Coins + Health Boost",
+    "rarity": "Common",
+    "tips": "Use before mini-games"
+  },
+  {
+    "name": "Rainbow Salad",
+    "ingredients": "Tomato + Cucumber + Carrot + Lettuce",
+    "rewards": "60 Coins + Rainbow Seed",
+    "rarity": "Epic",
+    "tips": "Special event exclusive"
+  }
+]
