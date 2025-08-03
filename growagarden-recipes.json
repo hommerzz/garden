@@ -1,37 +1,66 @@
 [
   {
+    "name": "Pancakes",
+    "ingredients": "Wheat + Milk",
+    "rewards": "15 Coins",
+    "rarity": "Common",
+    "tips": "Best for morning orders (6-12)",
+    "category": "Basic"
+  },
+  {
+    "name": "Bread",
+    "ingredients": "Wheat x2",
+    "rewards": "10 Coins",
+    "rarity": "Common",
+    "tips": "Basic recipe for beginners",
+    "category": "Basic"
+  },
+  {
     "name": "Golden Pancakes",
     "ingredients": "Wheat + Honey + Milk",
     "rewards": "50 Coins + Rare Seed",
     "rarity": "Uncommon",
-    "tips": "Best for Chris P. Bacon events"
+    "tips": "Best for Chris P. Bacon morning events (2x reward)",
+    "category": "Advanced"
   },
   {
-    "name": "Mushroom Omelette",
-    "ingredients": "Egg + Mushroom + Cheese",
-    "rewards": "35 Coins + Common Seed",
-    "rarity": "Common", 
-    "tips": "Quick energy restore"
+    "name": "Pizza",
+    "ingredients": "Wheat + Tomato + Cheese",
+    "rewards": "75 Coins",
+    "rarity": "Uncommon",
+    "tips": "Good for afternoon orders (12-18)",
+    "category": "Advanced"
   },
   {
-    "name": "Berry Smoothie",
-    "ingredients": "Blueberry + Strawberry + Milk",
-    "rewards": "45 Coins + Friendship Points",
+    "name": "Rainbow Cake",
+    "ingredients": "All basic ingredients + Rainbow Flower",
+    "rewards": "200 Coins + Rare Pet",
     "rarity": "Rare",
-    "tips": "Great for daily quests"
+    "tips": "Special event only",
+    "category": "Rare"
   },
   {
-    "name": "Herbal Tea",
-    "ingredients": "Mint + Chamomile + Honey",
-    "rewards": "30 Coins + Health Boost",
-    "rarity": "Common",
-    "tips": "Use before mini-games"
+    "name": "Halloween Pumpkin Pie",
+    "ingredients": "Pumpkin + Wheat + Spice",
+    "rewards": "400 Coins + Halloween Pet",
+    "rarity": "Seasonal",
+    "tips": "Available during Halloween event",
+    "category": "Seasonal"
   },
   {
-    "name": "Rainbow Salad",
-    "ingredients": "Tomato + Cucumber + Carrot + Lettuce",
-    "rewards": "60 Coins + Rainbow Seed",
-    "rarity": "Epic",
-    "tips": "Special event exclusive"
+    "name": "Mystery Meal",
+    "ingredients": "Random ingredient x5",
+    "rewards": "Random reward (may get legendary pet)",
+    "rarity": "Secret",
+    "tips": "Hidden combination discovered by players",
+    "category": "Secret"
+  },
+  {
+    "name": "Farmer's Feast",
+    "ingredients": "All basic vegetables",
+    "rewards": "Large XP boost",
+    "rarity": "Secret",
+    "tips": "Grants bonus experience points",
+    "category": "Secret"
   }
 ]

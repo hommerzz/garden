@@ -19,14 +19,41 @@ function renderRecipes(recipes) {
 
     recipes.forEach(recipe => {
         const row = document.createElement('tr');
+        row.dataset.category = recipe.category;
         row.innerHTML = `
             <td>${recipe.name}</td>
+            <td>${recipe.category}</td>
             <td>${recipe.ingredients}</td>
             <td>${recipe.rewards}</td>
             <td>${recipe.rarity}</td>
             <td>${recipe.tips}</td>
         `;
         tableBody.appendChild(row);
+    });
+}
+
+// 设置分类筛选
+function setupCategoryFilters() {
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    
+    filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            // 更新活动按钮状态
+            filterButtons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+            
+            // 筛选食谱
+            const category = button.dataset.category;
+            const rows = document.querySelectorAll('#recipe-table tbody tr');
+            
+            rows.forEach(row => {
+                if (category === 'all' || row.dataset.category === category) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        });
     });
 }
 
@@ -134,4 +161,5 @@ document.addEventListener('DOMContentLoaded', () => {
     loadCommunityTips();
     loadGuide();
     loadFutureFeatures();
+    setupCategoryFilters();
 });
